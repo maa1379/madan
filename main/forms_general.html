@@ -1,0 +1,1664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../images/favicon.ico">
+
+    <title>سانی ادمین - عناصر عمومی فرم </title>
+  
+	<!-- Vendors Style-->
+	<link rel="stylesheet" href="css/vendors_css.css">
+	  
+	<!-- Style-->  
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/skin_color.css">
+
+</head>
+<body class="hold-transition light-skin sidebar-mini theme-primary">
+<div class="wrapper">
+
+  <header class="main-header">
+    <!-- Header Navbar -->
+    <nav class="navbar navbar-static-top pl-30">
+      <!-- Sidebar toggle button-->
+	  <div>
+		  <ul class="nav">
+			<li class="btn-group nav-item">
+				<a href="#" class="waves-effect waves-light nav-link rounded svg-bt-icon" data-toggle="push-menu" role="button">
+					<i class="nav-link-icon mdi mdi-menu"></i>
+			    </a>
+			</li>
+			<li class="btn-group nav-item">
+				<a href="#" data-provide="fullscreen" class="waves-effect waves-light nav-link rounded svg-bt-icon" title="تمام صفحه">
+					<i class="nav-link-icon mdi mdi-crop-free"></i>
+			    </a>
+			</li>			
+			<li class="btn-group nav-item d-none d-xl-inline-block">
+				<a href="#" class="waves-effect waves-light nav-link rounded svg-bt-icon" title="">
+					<i class="ti-check-box"></i>
+			    </a>
+			</li>
+			<li class="btn-group nav-item d-none d-xl-inline-block">
+				<a href="calendar.html" class="waves-effect waves-light nav-link rounded svg-bt-icon" title="">
+					<i class="ti-calendar"></i>
+			    </a>
+			</li>
+		  </ul>
+	  </div>
+		
+      <div class="navbar-custom-menu r-side">
+        <ul class="nav navbar-nav">
+		  <!-- full Screen -->
+	      <li class="search-bar">		  
+			  <div class="lookup lookup-circle lookup-right">
+			     <input type="text" name="s">
+			  </div>
+		  </li>			
+		  <!-- Notifications -->
+		  <li class="dropdown notifications-menu">
+			<a href="#" class="waves-effect waves-light rounded dropdown-toggle" data-toggle="dropdown" title="اعلان ها">
+			  <i class="ti-bell"></i>
+			</a>
+			<ul class="dropdown-menu animated bounceIn">
+
+			  <li class="header">
+				<div class="p-20">
+					<div class="flexbox">
+						<div>
+							<h4 class="mb-0 mt-0">اعلان ها</h4>
+						</div>
+						<div>
+							<a href="#" class="text-danger">پاک کردن همه</a>
+						</div>
+					</div>
+				</div>
+			  </li>
+
+			  <li>
+				<!-- inner menu: contains the actual data -->
+				<ul class="menu sm-scrol">
+				  <li>
+					<a href="#">
+					  <i class="fa fa-users text-info"></i> لورم ایپسوم متن ساختگی با تولید سادگی
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <i class="fa fa-warning text-warning"></i> متن ساختگی صنعت چاپ با تولید سادگی
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <i class="fa fa-users text-danger"></i> تولید سادگی نامفهوم با متن ساختگی لورم ایپسوم در صنعت چاپ
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <i class="fa fa-shopping-cart text-success"></i> لورم ایپسوم با تولید سادگی نامفهوم
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <i class="fa fa-user text-danger"></i> متن ساختگی با تولید سادگی نامفهوم در صنعت چاپ
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <i class="fa fa-user text-primary"></i> لورم ایپسوم متن ساختگی
+					</a>
+				  </li>
+				  <li>
+					<a href="#">
+					  <i class="fa fa-user text-success"></i> با تولید سادگی نامفهوم در صنعت چاپ متن ساختگی
+					</a>
+				  </li>
+				</ul>
+			  </li>
+			  <li class="footer">
+				  <a href="#">مشاهده همه</a>
+			  </li>
+			</ul>
+		  </li>	
+		  
+	      <!-- User Account-->
+          <li class="dropdown user user-menu">	
+			<a href="#" class="waves-effect waves-light rounded dropdown-toggle p-0" data-toggle="dropdown" title="کاربر">
+				<img src="../images/avatar/1.jpg" alt="">
+			</a>
+			<ul class="dropdown-menu animated flipInX">
+			  <li class="user-body">
+				 <a class="dropdown-item" href="#"><i class="ti-user text-muted mr-2"></i> پروفایل</a>
+				 <a class="dropdown-item" href="#"><i class="ti-wallet text-muted mr-2"></i> کیف پول من</a>
+				 <a class="dropdown-item" href="#"><i class="ti-settings text-muted mr-2"></i> تنظیمات</a>
+				 <div class="dropdown-divider"></div>
+				 <a class="dropdown-item" href="#"><i class="ti-lock text-muted mr-2"></i> خروج</a>
+			  </li>
+			</ul>
+          </li>	
+		  <li>
+              <a href="#" data-toggle="control-sidebar" title="تنظیمات" class="waves-effect waves-light">
+			  	<i class="ti-settings"></i>
+			  </a>
+          </li>
+			
+        </ul>
+      </div>
+    </nav>
+  </header>
+  
+  <!-- Left side column. contains the logo and sidebar -->
+  <aside class="main-sidebar">
+    <!-- sidebar-->
+    <section class="sidebar">	
+		
+        <div class="user-profile">
+			<div class="ulogo">
+				 <a href="index.html">
+				  <!-- logo for regular state and mobile devices -->
+					 <div class="d-flex align-items-center justify-content-center">					 	
+						  <img src="../images/logo-dark.png" alt="">
+						  <h3><b>Sunny</b> Admin</h3>
+					 </div>
+				</a>
+			</div>
+        </div>
+      
+      <!-- sidebar menu-->
+      <ul class="sidebar-menu" data-widget="tree">  
+		  
+		<li>
+          <a href="index.html">
+            <i data-feather="pie-chart"></i>
+			<span>داشبورد</span>
+          </a>
+        </li>  
+		
+        <li class="treeview">
+          <a href="#">
+            <i data-feather="message-circle"></i>
+            <span>برنامه</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="chat.html"><i class="ti-more"></i>چت</a></li>
+            <li><a href="calendar.html"><i class="ti-more"></i>تقویم رویداد میلادی</a></li>
+							<li><a href="calendar-jalali.html"><i class="ti-more"></i>تقویم رویداد شمسی</a></li>
+          </ul>
+        </li> 
+		  
+        <li class="treeview">
+          <a href="#">
+            <i data-feather="mail"></i> <span>ایمیل</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="mailbox_inbox.html"><i class="ti-more"></i>صندوق دریافت</a></li>
+            <li><a href="mailbox_compose.html"><i class="ti-more"></i>ارسال ایمیل</a></li>
+            <li><a href="mailbox_read_mail.html"><i class="ti-more"></i>خواندن ایمیل</a></li>
+          </ul>
+        </li>
+		
+        <li class="treeview">
+          <a href="#">
+            <i data-feather="file"></i>
+            <span>صفحات</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="profile.html"><i class="ti-more"></i>پروفایل</a></li>
+            <li><a href="invoice.html"><i class="ti-more"></i>فاکتور</a></li>
+            <li><a href="gallery.html"><i class="ti-more"></i>گالری</a></li>
+            <li><a href="faq.html"><i class="ti-more"></i>سوالات متداول</a></li>
+            <li><a href="timeline.html"><i class="ti-more"></i>تایم لاین</a></li>
+          </ul>
+        </li> 		  
+		 
+        <li class="header nav-small-cap">رابط کاربری</li>
+		  
+        <li class="treeview">
+          <a href="#">
+            <i data-feather="grid"></i>
+            <span>کامپوننت ها</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="components_alerts.html"><i class="ti-more"></i>هشدار</a></li>
+            <li><a href="components_badges.html"><i class="ti-more"></i>نشان</a></li>
+            <li><a href="components_buttons.html"><i class="ti-more"></i>دکمه</a></li>
+            <li><a href="components_sliders.html"><i class="ti-more"></i>اسلایدر</a></li>
+            <li><a href="components_dropdown.html"><i class="ti-more"></i>فهرست کشویی</a></li>
+            <li><a href="components_modals.html"><i class="ti-more"></i>مُدال</a></li>
+            <li><a href="components_nestable.html"><i class="ti-more"></i>تو در تو</a></li>
+            <li><a href="components_progress_bars.html"><i class="ti-more"></i>نوار پیشرفت</a></li>
+          </ul>
+        </li>
+		
+		<li class="treeview">
+          <a href="#">
+            <i data-feather="credit-card"></i>
+            <span>کارت ها</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+			<li><a href="card_advanced.html"><i class="ti-more"></i>کارت پیشرفته</a></li>
+			<li><a href="card_basic.html"><i class="ti-more"></i>کارت پایه</a></li>
+			<li><a href="card_color.html"><i class="ti-more"></i>کارت رنگی</a></li>
+		  </ul>
+        </li>  
+		  
+        <li class="treeview">
+          <a href="#">
+            <i data-feather="hard-drive"></i>
+            <span>محتوا</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="content_typography.html"><i class="ti-more"></i>تایپوگرافی</a></li>
+            <li><a href="content_media.html"><i class="ti-more"></i>رسانه</a></li>
+            <li><a href="content_grid.html"><i class="ti-more"></i>شبکه بندی</a></li>
+          </ul>
+        </li>
+		  
+        <li class="treeview">
+          <a href="#">
+            <i data-feather="package"></i>
+            <span>موارد مفید</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="utilities_border.html"><i class="ti-more"></i>خط مرز</a></li>
+            <li><a href="utilities_color.html"><i class="ti-more"></i>رنگ</a></li>
+            <li><a href="utilities_ribbons.html"><i class="ti-more"></i>روبان</a></li>
+            <li><a href="utilities_tab.html"><i class="ti-more"></i>تب ها</a></li>
+            <li><a href="utilities_animations.html"><i class="ti-more"></i>انیمیشن</a></li>
+          </ul>
+        </li>
+		  
+		<li class="treeview">
+          <a href="#">
+            <i data-feather="edit-2"></i>
+            <span>آیکون ها</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="icons_fontawesome.html"><i class="ti-more"></i>فونت آوسوم</a></li>
+            <li><a href="icons_glyphicons.html"><i class="ti-more"></i>آیکون Glyphicons</a></li>
+            <li><a href="icons_material.html"><i class="ti-more"></i>آیکون های متریال</a></li>	
+            <li><a href="icons_themify.html"><i class="ti-more"></i>آیکون های Themify</a></li>
+            <li><a href="icons_simpleline.html"><i class="ti-more"></i>آیکون های SimpleLine</a></li>
+            <li><a href="icons_cryptocoins.html"><i class="ti-more"></i>آیکون های ارز دیجیتال</a></li>
+            <li><a href="icons_flag.html"><i class="ti-more"></i>آیکون های پرچم</a></li>
+            <li><a href="icons_weather.html"><i class="ti-more"></i>آیکون های آب و هوا</a></li>
+          </ul>
+        </li> 
+		  
+        <li class="treeview">
+          <a href="#">
+            <i data-feather="inbox"></i>
+			<span>فرم ها</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="forms_advanced.html"><i class="ti-more"></i>عناصر پیشرفته</a></li>
+            <li><a href="forms_editors.html"><i class="ti-more"></i>ویرایشگر متن</a></li>
+            <li><a href="forms_code_editor.html"><i class="ti-more"></i>ویرایشگر کد</a></li>
+            <li><a href="forms_validation.html"><i class="ti-more"></i>اعتبارسنجی فرم</a></li>
+            <li><a href="forms_wizard.html"><i class="ti-more"></i>فرم پیشرفته</a></li>
+            <li><a href="forms_general.html"><i class="ti-more"></i>عناصر عمومی</a></li>
+            <li><a href="forms_dropzone.html"><i class="ti-more"></i>آپلود فایل Dropzone</a></li>
+          </ul>
+        </li>
+		<li class="treeview">
+          <a href="#">
+            <i data-feather="server"></i>
+			<span>جداول</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="tables_simple.html"><i class="ti-more"></i>جداول ساده</a></li>
+            <li><a href="tables_data.html"><i class="ti-more"></i>جداول داده ای</a></li>
+          </ul>
+        </li>
+		  
+        <li class="treeview">
+          <a href="#">
+            <i data-feather="pie-chart"></i>
+            <span>نمودار ها</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="charts_chartjs.html"><i class="ti-more"></i>نمودار ChartJS</a></li>
+            <li><a href="charts_flot.html"><i class="ti-more"></i>نمودار Flot</a></li>
+            <li><a href="charts_inline.html"><i class="ti-more"></i>نمودار Inline</a></li>	
+            <li><a href="charts_morris.html"><i class="ti-more"></i>نمودار Morris</a></li>
+            <li><a href="charts_peity.html"><i class="ti-more"></i>نمودار Peity</a></li>
+            <li><a href="charts_chartist.html"><i class="ti-more"></i>نمودار Chartist</a></li>
+          </ul>
+        </li>  
+		  
+        <li class="treeview">
+          <a href="#">
+            <i data-feather="map"></i>
+			<span>نقشه</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="map_google.html"><i class="ti-more"></i>نقشه گوگل</a></li>
+            <li><a href="map_vector.html"><i class="ti-more"></i>نقشه برداری</a></li>
+          </ul>
+        </li> 			  
+		  
+		<li class="treeview">
+          <a href="#">
+            <i data-feather="alert-triangle"></i>
+			<span>احراز هویت</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="auth_login.html"><i class="ti-more"></i>ورود</a></li>
+			<li><a href="auth_register.html"><i class="ti-more"></i>ثبت نام</a></li>
+			<li><a href="auth_lockscreen.html"><i class="ti-more"></i>قفل صفحه</a></li>
+			<li><a href="auth_user_pass.html"><i class="ti-more"></i>رمز عبور</a></li>
+			<li><a href="error_404.html"><i class="ti-more"></i>خطای 404</a></li>
+			<li><a href="error_maintenance.html"><i class="ti-more"></i>در دست تعمیر</a></li>	
+          </ul>
+        </li> 		  		  
+		  
+		<li class="header nav-small-cap">اضافی</li>		  
+		  
+        <li class="treeview">
+          <a href="#">
+            <i data-feather="layers"></i>
+			<span>چند سطحی</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="#">سطح یک</a></li>
+            <li class="treeview">
+              <a href="#">سطح یک
+                <span class="pull-right-container">
+              <i class="fa fa-angle-right pull-right"></i>
+            </span>
+              </a>
+              <ul class="treeview-menu">
+                <li><a href="#">سطح دو</a></li>
+                <li class="treeview">
+                  <a href="#">سطح دو
+                    <span class="pull-right-container">
+					  <i class="fa fa-angle-right pull-right"></i>
+					</span>
+                  </a>
+                  <ul class="treeview-menu">
+                    <li><a href="#">سطح سه</a></li>
+                    <li><a href="#">سطح سه</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#">سطح یک</a></li>
+          </ul>
+        </li>  
+		  
+		<li>
+          <a href="auth_login.html">
+            <i data-feather="lock"></i>
+			<span>خروج</span>
+          </a>
+        </li> 
+        
+      </ul>
+    </section>
+	
+	<div class="sidebar-footer">
+		<!-- item-->
+		<a href="javascript:void(0)" class="link" data-toggle="tooltip" title="" data-original-title="تنظیمات" aria-describedby="tooltip92529"><i class="ti-settings"></i></a>
+		<!-- item-->
+		<a href="mailbox_inbox.html" class="link" data-toggle="tooltip" title="" data-original-title="ایمیل"><i class="ti-email"></i></a>
+		<!-- item-->
+		<a href="javascript:void(0)" class="link" data-toggle="tooltip" title="" data-original-title="خروج"><i class="ti-lock"></i></a>
+	</div>
+  </aside>
+  
+  
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+	  <div class="container-full">
+		<!-- Content Header (Page header) -->
+		<div class="content-header">
+			<div class="d-flex align-items-center">
+				<div class="mr-auto">
+					<h3 class="page-title">عناصر عمومی فرم</h3>
+					<div class="d-inline-block align-items-center">
+						<nav>
+							<ol class="breadcrumb">
+								<li class="breadcrumb-item"><a href="index.html"><i class="mdi mdi-home-outline"></i></a></li>
+								<li class="breadcrumb-item" aria-current="page">فرم ها</li>
+								<li class="breadcrumb-item active" aria-current="page">عناصر عمومی فرم</li>
+							</ol>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>	  
+
+		<!-- Main content -->
+		<section class="content">
+			
+			<div class="row">
+				<div class="col-12">
+				  <div class="box">
+					  
+					<div class="box-header with-border">
+					  <h4 class="box-title">ورودی ها</h4>
+					</div>
+					<div class="box-body">
+						<div class="form-group">
+							<label>ورودی متن</label>
+							<input type="text" class="form-control" placeholder="ورودی متن">
+						</div>
+
+						<div class="form-group">
+							<label>ورودی رمز عبور</label>
+							<input type="password" class="form-control" placeholder="ورودی رمز عبور">
+						</div>
+
+						<div class="form-group">
+							<label>ورودی با متن کمکی</label>
+							<input type="text" class="form-control" placeholder="ورودی با متن کمکی">
+						</div>
+
+						<div class="form-group">
+							<label class="text-success">کمک کننده ورودی زمینه ای</label>
+							<div class="form-group-feedback form-group-feedback-right">
+								<input type="text" class="form-control border-success" placeholder="موفق با آیکون">
+								<div class="form-control-feedback text-success">
+									<i class="fa fa-check"></i>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label>فیلد ورودی فقط خواندنی</label>
+							<input type="text" class="form-control" readonly placeholder="فیلد ورودی فقط خواندنی">
+						</div>
+
+						<div class="form-group">
+							<label>فیلد ورودی غیر فعال</label>
+							<input type="text" class="form-control" disabled placeholder="فیلد ورودی غیرفعال">
+						</div>
+
+						<div class="form-group">
+							<label>فیلد متنی</label>
+							<textarea rows="5" cols="5" class="form-control" placeholder="فیلد متنی"></textarea>
+						</div>
+					  
+					</div>	
+					  
+					<div class="box-header with-border">
+					  <h4 class="box-title">ورودی های گروهی</h4>
+					</div>
+					<div class="box-body">						
+						<div class="form-group">
+							<label>ورودی گروهی با آیکون راست</label>
+							<div class="input-group">
+								<span class="input-group-prepend">
+									<span class="input-group-text"><i class="fa fa-paper-plane"></i></span>
+								</span>
+								<input type="text" class="form-control" placeholder="ورودی گروهی با آیکون راست">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label>ورودی گروهی با آیکون چپ</label>
+							<div class="input-group">
+								<input type="text" class="form-control" placeholder="ورودی گروهی با آیکون چپ">
+								<span class="input-group-append">
+									<span class="input-group-text"><i class="fa fa-paper-plane"></i></span>
+								</span>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label>ورودی گروهی با دکمه راست</label>
+							<div class="input-group">
+								<div class="input-group-prepend">
+									<button type="button" class="btn btn-rounded btn-info btn-sm dropdown-toggle" data-toggle="dropdown">عمل</button>
+									<div class="dropdown-menu">
+										<a href="#" class="dropdown-item">عمل</a>
+										<a href="#" class="dropdown-item">عمل دیگر</a>
+										<a href="#" class="dropdown-item">هر چیز دیگری</a>
+										<a href="#" class="dropdown-item">یک خط بیشتر</a>
+									</div>
+								</div>
+								<input type="text" class="form-control" placeholder="ورودی گروهی با دکمه راست">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label>ورودی گروهی با دکمه چپ</label>
+							<div class="input-group">
+								<input type="text" class="form-control" placeholder="ورودی گروهی با دکمه چپ">
+								<div class="input-group-append">
+									<button type="button" class="btn btn-rounded btn-info btn-sm dropdown-toggle" data-toggle="dropdown">عمل</button>
+									<div class="dropdown-menu dropdown-menu-right">
+										<a href="#" class="dropdown-item">عمل</a>
+										<a href="#" class="dropdown-item">عمل دیگر</a>
+										<a href="#" class="dropdown-item">هر چیز دیگری</a>
+										<a href="#" class="dropdown-item">یک خط بیشتر</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group form-group-feedback form-group-feedback-right">
+							<label class="form-group-float-label text-danger">ورودی گروهی با رنگ زمینه</label>
+							<div class="position-relative">
+								<div class="input-group">
+									<span class="input-group-prepend">
+										<span class="input-group-text text-danger border-danger">
+											<i class="fa fa-times-circle-o"></i>
+										</span>
+									</span>
+									<input type="text" class="form-control border-danger" placeholder="ورودی گروهی با رنگ زمینه">
+								</div>
+								<div class="form-control-feedback text-danger">
+									<i class="fa fa-times-circle-o"></i>
+								</div>
+							</div>
+						</div>
+					</div>	
+					  
+					<div class="box-header with-border">
+					  <h4 class="box-title">انتخاب</h4>
+					</div>
+					<div class="box-body">
+						<div class="form-group form-group-float">
+							<label class="form-group-float-label">انتخاب پایه</label>
+							<select class="form-control">
+								<option value="" selected>انتخاب پایه</option>
+								<optgroup label="ایران">
+									<option value="AK">تهران</option>
+									<option value="HI">مشهد</option>
+								</optgroup>
+								<optgroup label="ترکیه">
+									<option value="CA">استانبول</option>
+									<option value="NV">آنکارا</option>
+									<option value="WA">ازمیر</option>
+								</optgroup>
+								<optgroup label="آمریکا">
+									<option value="AZ">آریزونا</option>
+									<option value="CO">کالیفرنیا</option>
+									<option value="WY">واشنگتن</option>
+								</optgroup>
+							</select>
+						</div>
+					</div>
+			  </div>
+			  <!-- /.box -->
+
+			  <!-- Form Element sizes -->
+			  <div class="box">
+				<div class="box-header with-border">
+				  <h4 class="box-title">ارتفاع متفاوت</h4>
+				</div>
+				<div class="box-body form-element">
+				  <input class="form-control input-lg" type="text" placeholder=".input-lg">
+				  <br><br>
+				  <input class="form-control" type="text" placeholder="پیش فرض">
+				  <br><br>
+				  <input class="form-control input-sm" type="text" placeholder=".input-sm">
+				</div>
+				<!-- /.box-body -->
+			  </div>
+			  <!-- /.box -->
+
+			  <div class="box">
+				<div class="box-header with-border">
+				  <h4 class="box-title">عرض متفاوت</h4>
+				</div>
+				<div class="box-body form-element">
+				  <div class="row">
+					<div class="col-sm-3">
+					  <input type="text" class="form-control" placeholder=".col-sm-3">
+					</div>
+					<div class="col-sm-4">
+					  <input type="text" class="form-control" placeholder=".col-sm-4">
+					</div>
+					<div class="col-sm-5">
+					  <input type="text" class="form-control" placeholder=".col-sm-5">
+					</div>
+				  </div>
+				</div>
+				<!-- /.box-body -->
+			  </div>
+			  <!-- /.box -->
+
+			  <!-- Input addon -->
+			  <div class="box">
+				<div class="box-header with-border">
+				  <h4 class="box-title">ورودی گروهی</h4>
+				</div>
+				<div class="box-body">
+				  <div class="input-group">
+					<span class="input-group-addon">@</span>
+					<input type="text" class="form-control" placeholder="نام کاربری">
+				  </div>
+				  <br>
+
+				  <div class="input-group">
+					<input type="text" class="form-control">
+					<span class="input-group-addon">.00</span>
+				  </div>
+				  <br>
+
+				  <div class="input-group">
+					<span class="input-group-addon">$</span>
+					<input type="text" class="form-control">
+					<span class="input-group-addon">.00</span>
+				  </div>
+
+				  <h6 class="mt-15 mb-5">به همراه آیکون</h6>
+
+				  <div class="input-group">
+					<span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+					<input type="email" class="form-control" placeholder="ایمیل">
+				  </div>
+				  <br>
+
+				  <div class="input-group">
+					<input type="text" class="form-control">
+					<span class="input-group-addon"><i class="fa fa-check"></i></span>
+				  </div>
+				  <br>
+
+				  <div class="input-group">
+					<span class="input-group-addon"><i class="fa fa-dollar"></i></span>
+					<input type="text" class="form-control">
+					<span class="input-group-addon"><i class="fa fa-ambulance"></i></span>
+				  </div>
+
+				  <h6 class="mt-15 mb-5">به همراه چک باکس و رادیو</h6>
+
+				  <div class="row">
+					<div class="col-lg-6">
+					  <div class="input-group">
+						<span class="input-group-addon">
+						  <input type="checkbox" id="addon_Checkbox_1">
+						  <label for="addon_Checkbox_1" style="padding-left: 20px;height: 13px;"></label>
+						</span>
+						<input type="text" class="form-control">
+					  </div>
+					  <!-- /input-group -->
+					</div>
+					<!-- /.col-lg-6 -->
+					<div class="col-lg-6">
+					  <div class="input-group">
+							<span class="input-group-addon">
+							  <input name="group1" type="radio" id="addon_Option_1">
+							  <label for="addon_Option_1" style="padding-left: 20px;height: 13px;"></label>
+							</span>
+						<input type="text" class="form-control">
+					  </div>
+					  <!-- /input-group -->
+					</div>
+					<!-- /.col-lg-6 -->
+				  </div>
+				  <!-- /.row -->
+				</div>
+				<!-- /.box-body -->
+			  </div>
+			  <!-- /.box -->
+
+			</div>
+			<!--/.col (left) -->
+			<!-- right column -->
+			<div class="col-12">
+			  <!-- Horizontal Form -->
+			  <div class="box">
+				<div class="box-header with-border">
+				  <h4 class="box-title">فرم افقی</h4>
+				</div>
+				<!-- /.box-header -->
+				<!-- form start -->
+				<form class="form-horizontal form-element">
+				  <div class="box-body">
+					<div class="form-group row">
+					  <label for="inputEmail3" class="col-sm-2 control-label">ایمیل</label>
+
+					  <div class="col-sm-10">
+						<input type="email" class="form-control" id="inputEmail3" placeholder="ایمیل">
+					  </div>
+					</div>
+					<div class="form-group row">
+					  <label for="inputPassword3" class="col-sm-2 control-label">رمز عبور</label>
+
+					  <div class="col-sm-10">
+						<input type="password" class="form-control" id="inputPassword3" placeholder="رمز عبور">
+					  </div>
+					</div>
+					<div class="form-group row">
+					  <div class="ml-auto col-sm-10">
+						<div class="checkbox">
+							<input type="checkbox" id="Remember">
+							<label for="Remember">مرا به خاطر بسپار</label> 
+						</div>
+					  </div>
+					</div>
+				  </div>
+				  <!-- /.box-body -->
+				  <div class="box-footer">
+					<button type="submit" class="btn btn-rounded btn-danger">لغو</button>
+					<button type="submit" class="btn btn-rounded btn-info pull-right">ورود</button>
+				  </div>
+				  <!-- /.box-footer -->
+				</form>
+			  </div>
+			  <!-- /.box -->
+			  <!-- general form elements disabled -->
+			  <div class="box">
+				<div class="box-header with-border">
+				  <h4 class="box-title">عناصر عمومی</h4>
+				</div>
+				<!-- /.box-header -->
+				<div class="box-body">
+				  <form role="form">
+					<!-- text input -->
+					<div class="form-group">
+					  <label>متن</label>
+					  <input type="text" class="form-control" placeholder="وارد کردن ...">
+					</div>
+					<div class="form-group">
+					  <label>متن غیرفعال</label>
+					  <input type="text" class="form-control" placeholder="وارد کردن ..." disabled>
+					</div>
+
+					<!-- textarea -->
+					<div class="form-group">
+					  <label>فیلد متنی</label>
+					  <textarea class="form-control" rows="3" placeholder="وارد کردن ..."></textarea>
+					</div>
+					<div class="form-group">
+					  <label>فیلد متنی غیرفعال</label>
+					  <textarea class="form-control" rows="3" placeholder="وارد کردن ..." disabled></textarea>
+					</div>
+
+					<!-- input states -->
+					<div class="form-group has-success">
+					  <label class="control-label" for="inputSuccess"><i class="fa fa-check"></i> ورودی موفق</label>
+					  <input type="text" class="form-control" id="inputSuccess" placeholder="وارد کردن ...">
+					  <span class="help-block">مقدار ورودی صحیح است</span>
+					</div>
+					<div class="form-group has-warning">
+					  <label class="control-label" for="inputWarning"><i class="fa fa-bell-o"></i> ورودی هشدار</label>
+					  <input type="text" class="form-control" id="inputWarning" placeholder="وارد کردن ...">
+					  <span class="help-block">مقدار ورودی ضعیف است !</span>
+					</div>
+					<div class="form-group has-error">
+					  <label class="control-label" for="inputError"><i class="fa fa-times-circle-o"></i> ورودی خطا</label>
+					  <input type="text" class="form-control" id="inputError" placeholder="وارد کردن ...">
+					  <span class="help-block">مقدار ورودی اشتباه است !</span>
+					</div>
+
+					<!-- checkbox -->
+					<div class="form-group">
+					  <div class="checkbox">
+						  <input type="checkbox" id="Checkbox_1">
+						  <label for="Checkbox_1">چک باکس 1</label>
+					  </div>
+
+					  <div class="checkbox">
+						  <input type="checkbox" id="Checkbox_2">
+						  <label for="Checkbox_2">چک باکس 2</label>
+					  </div>
+
+					  <div class="checkbox">
+						 <input type="checkbox" id="Checkbox_3" disabled>
+						 <label for="Checkbox_3">چک باکس غیرفعال</label>                      
+					  </div>
+					</div>
+
+					<!-- radio -->
+					<div class="form-group">
+					  <div class="radio">
+						  <input name="group1" type="radio" id="Option_1" checked>
+						  <label for="Option_1">رادیو 1</label>                    
+					  </div>
+					  <div class="radio">
+						  <input name="group1" type="radio" id="Option_2" >
+						  <label for="Option_2">رادیو 2</label>   
+					  </div>
+					  <div class="radio">
+						  <input name="group1" type="radio" id="Option_3" disabled>
+						  <label for="Option_3">رادیو غیرفعال</label> 
+					  </div>
+					</div>
+
+					<!-- select -->
+					<div class="form-group">
+					  <label>انتخاب</label>
+					  <select class="form-control">
+						<option>گزینه 1</option>
+						<option>گزینه 2</option>
+						<option>گزینه 3</option>
+						<option>گزینه 4</option>
+						<option>گزینه 5</option>
+					  </select>
+					</div>
+					<div class="form-group">
+					  <label>انتخاب غیرفعال</label>
+					  <select class="form-control" disabled>
+						<option>گزینه 1</option>
+						<option>گزینه 2</option>
+						<option>گزینه 3</option>
+						<option>گزینه 4</option>
+						<option>گزینه 5</option>
+					  </select>
+					</div>
+
+					<!-- Select multiple-->
+					<div class="form-group">
+					  <label>انتخاب چندتایی</label>
+					  <select multiple class="form-control">
+						<option>گزینه 1</option>
+						<option>گزینه 2</option>
+						<option>گزینه 3</option>
+						<option>گزینه 4</option>
+						<option>گزینه 5</option>
+					  </select>
+					</div>
+					<div class="form-group">
+					  <label>انتخاب چندتایی غیرفعال</label>
+					  <select multiple class="form-control" disabled>
+						<option>گزینه 1</option>
+						<option>گزینه 2</option>
+						<option>گزینه 3</option>
+						<option>گزینه 4</option>
+						<option>گزینه 5</option>
+					  </select>
+					</div>
+
+				  </form>
+				</div>
+				<!-- /.box-body -->
+			  </div>
+			  <!-- /.box -->
+			</div>
+			<!--/.col (right) -->
+		  </div>
+		  <!-- /.row -->
+
+		  <div class="row">			  
+			<div class="col-lg-6 col-12">
+				  <div class="box">
+					<div class="box-header with-border">
+					  <h4 class="box-title">فرم نمونه 1</h4>
+					</div>
+					<!-- /.box-header -->
+					<form class="form">
+						<div class="box-body">
+							<h4 class="box-title text-info"><i class="ti-user mr-15"></i> اطلاعات شخصی</h4>
+							<hr class="my-15">
+							<div class="row">
+							  <div class="col-md-6">
+								<div class="form-group">
+								  <label>نام</label>
+								  <input type="text" class="form-control" placeholder="نام">
+								</div>
+							  </div>
+							  <div class="col-md-6">
+								<div class="form-group">
+								  <label>نام خانوادگی</label>
+								  <input type="text" class="form-control" placeholder="نام خانوادگی">
+								</div>
+							  </div>
+							</div>
+							<div class="row">
+							  <div class="col-md-6">
+								<div class="form-group">
+								  <label >ایمیل</label>
+								  <input type="text" class="form-control" placeholder="ایمیل">
+								</div>
+							  </div>
+							  <div class="col-md-6">
+								<div class="form-group">
+								  <label >شماره تماس</label>
+								  <input type="text" class="form-control" placeholder="شماره تماس">
+								</div>
+							  </div>
+							</div>
+							<h4 class="box-title text-info"><i class="ti-save mr-15"></i> مقررات</h4>
+							<hr class="my-15">
+							<div class="form-group">
+							  <label>شرکت</label>
+							  <input type="text" class="form-control" placeholder="نام شرکت">
+							</div>
+							<div class="row">
+							  <div class="col-md-6">
+								<div class="form-group">
+								  <label>علاقه مندی</label>
+								  <select class="form-control">
+									<option>علاقه مندی</option>
+									<option>طراحی</option>
+									<option>توسعه</option>
+									<option>فتوشاپ</option>
+									<option>برندینگ</option>
+									<option>سئو</option>
+								  </select>
+								</div>
+							  </div>
+							  <div class="col-md-6">
+								<div class="form-group">
+								  <label>بودجه</label>
+								  <select class="form-control">
+									<option>بودجه</option>
+									<option>کمتر از 500 هزار تومان</option>
+									<option>500 هزار  تومان - 1 میلیون تومان</option>
+									<option>1 میلیون تومان - 2 میلیون تومان</option>
+									<option>بیشر از 2 میلیون تومان</option>
+								  </select>
+								</div>
+							  </div>
+							</div>
+							<div class="form-group">
+							  <label>انتخاب فایل</label>
+							  <label class="file">
+								<input type="file" id="file">
+							  </label>
+							</div>
+							<div class="form-group">
+							  <label>درباره پروژه</label>
+							  <textarea rows="5" class="form-control" placeholder="درباره پروژه"></textarea>
+							</div>
+						</div>
+						<!-- /.box-body -->
+						<div class="box-footer">
+							<button type="button" class="btn btn-rounded btn-warning btn-outline mr-1">
+							  <i class="ti-trash"></i> لغو
+							</button>
+							<button type="submit" class="btn btn-rounded btn-primary btn-outline">
+							  <i class="ti-save-alt"></i> ذخیره
+							</button>
+						</div>  
+					</form>
+				  </div>
+				  <!-- /.box -->			
+			</div>  
+
+			<div class="col-lg-6 col-12">
+				  <div class="box">
+					<div class="box-header with-border">
+					  <h4 class="box-title">فرم نمونه 2</h4>
+					</div>
+					<!-- /.box-header -->
+					<form class="form">
+						<div class="box-body">
+							<h4 class="box-title text-info"><i class="ti-user mr-15"></i> درباره کاربر</h4>
+							<hr class="my-15">
+							<div class="row">
+							  <div class="col-md-6">
+
+								<div class="form-group">
+								  <label>نام</label>
+								  <input type="text" class="form-control" placeholder="نام">
+								</div>
+							  </div>
+							  <div class="col-md-6">
+								<div class="form-group">
+								  <label>نام خانوادگی</label>
+								  <input type="text" class="form-control" placeholder="نام خانوادگی">
+								</div>
+							  </div>
+							</div>
+							<div class="row">
+							  <div class="col-md-6">
+								<div class="form-group">
+								  <label >ایمیل</label>
+								  <input type="text" class="form-control" placeholder="ایمیل">
+								</div>
+							  </div>
+							  <div class="col-md-6">
+								<div class="form-group">
+								  <label >شماره تماس</label>
+								  <input type="text" class="form-control" placeholder="شماره تماس">
+								</div>
+							  </div>
+							</div>
+							<h4 class="box-title text-info"><i class="ti-envelope mr-15"></i> اطلاعات تماس و بیوگرافی</h4>
+							<hr class="my-15">
+							<div class="form-group">
+							  <label>ایمیل</label>
+							  <input class="form-control" type="email" placeholder="ایمیل">
+							</div>
+							<div class="form-group">
+							  <label>وبسایت</label>
+							  <input class="form-control" type="url" placeholder="http://">
+							</div>
+							<div class="form-group">
+							  <label>شماره تماس</label>
+							  <input class="form-control" type="tel" placeholder="شماره تماس">
+							</div>
+							<div class="form-group">
+							  <label >بیوگرافی</label>
+							  <textarea rows="4" class="form-control" placeholder="بیوگرافی"></textarea>
+							</div>
+						</div>
+						<!-- /.box-body -->
+						<div class="box-footer text-right">
+							<button type="button" class="btn btn-rounded btn-warning btn-outline mr-1">
+							  <i class="ti-trash"></i> لغو
+							</button>
+							<button type="submit" class="btn btn-rounded btn-primary btn-outline">
+							  <i class="ti-save-alt"></i> ذخیره
+							</button>
+						</div>  
+					</form>
+				  </div>
+				  <!-- /.box -->			
+			</div>
+
+			<div class="col-lg-6 col-12">
+				  <div class="box">
+					<div class="box-header with-border">
+					  <h4 class="box-title">فرم نمونه 3 با آیکون</h4>
+					</div>
+					<!-- /.box-header -->
+					<form class="form">
+						<div class="box-body">
+							<div class="form-group">
+								<label>نام کاربری</label>
+								<div class="input-group mb-3">
+									<div class="input-group-prepend">
+										<span class="input-group-text"><i class="ti-user"></i></span>
+									</div>
+									<input type="text" class="form-control" placeholder="نام کاربری">
+								</div>
+							</div>
+							<div class="form-group">
+								<label>آدرس ایمیل</label>
+								<div class="input-group mb-3">
+									<div class="input-group-prepend">
+										<span class="input-group-text"><i class="ti-email"></i></span>
+									</div>
+									<input type="email" class="form-control" placeholder="ایمیل">
+								</div>
+							</div>
+							<div class="form-group">
+								<label>رمز عبور</label>
+								<div class="input-group mb-3">
+									<div class="input-group-prepend">
+										<span class="input-group-text"><i class="ti-lock"></i></span>
+									</div>
+									<input type="password" class="form-control" placeholder="رمز عبور">
+								</div>
+							</div>
+							<div class="form-group">
+								<label>تکرار رمز عبور</label>
+								<div class="input-group mb-3">
+									<div class="input-group-prepend">
+										<span class="input-group-text"><i class="ti-lock"></i></span>
+									</div>
+									<input type="password" class="form-control" placeholder="تکرار رمز عبور">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="checkbox checkbox-success">
+									<input id="checkbox1" type="checkbox">
+									<label for="checkbox1"> مرا به خاطر بسپار </label>
+								</div>
+							</div>
+						</div>
+						<!-- /.box-body -->
+						<div class="box-footer">
+							<button type="button" class="btn btn-rounded btn-warning btn-outline mr-1">
+							  <i class="ti-trash"></i> لغو
+							</button>
+							<button type="submit" class="btn btn-rounded btn-primary btn-outline">
+							  <i class="ti-save-alt"></i> ذخیره
+							</button>
+						</div>  
+					</form>
+				  </div>
+				  <!-- /.box -->			
+			</div>
+
+			<div class="col-lg-6 col-12">
+				  <div class="box">
+					<div class="box-header with-border">
+					  <h4 class="box-title">فرم نمونه 4 با آیکون چپ</h4>
+					</div>
+					<!-- /.box-header -->
+					<form class="form">
+						<div class="box-body">
+							<div class="form-group">
+								<label>نام کاربری</label>
+								<div class="input-group mb-3">
+									<input type="text" class="form-control" placeholder="نام کاربری">
+									<div class="input-group-append">
+										<span class="input-group-text"><i class="ti-user"></i></span>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<label>آدرس ایمیل</label>
+								<div class="input-group mb-3">
+									<input type="email" class="form-control" placeholder="ایمیل">
+									<div class="input-group-append">
+										<span class="input-group-text"><i class="ti-email"></i></span>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<label>رمز عبور</label>
+								<div class="input-group mb-3">
+									<input type="password" class="form-control" placeholder="رمز عبور">
+									<div class="input-group-append">
+										<span class="input-group-text"><i class="ti-lock"></i></span>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<label>تکرار رمز عبور</label>
+								<div class="input-group mb-3">
+									<input type="password" class="form-control" placeholder="تکرار رمز عبور">
+									<div class="input-group-append">
+										<span class="input-group-text"><i class="ti-lock"></i></span>
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="checkbox checkbox-success">
+									<input id="checkbox2" type="checkbox">
+									<label for="checkbox2"> مرا به خاطر بسپار </label>
+								</div>
+							</div>
+						</div>
+						<!-- /.box-body -->
+						<div class="box-footer text-right">
+							<button type="button" class="btn btn-rounded btn-warning btn-outline mr-1">
+							  <i class="ti-trash"></i> لغو
+							</button>
+							<button type="submit" class="btn btn-rounded btn-primary btn-outline">
+							  <i class="ti-save-alt"></i> ذخیره
+							</button>
+						</div>  
+					</form>
+				  </div>
+				  <!-- /.box -->			
+			</div>
+
+			<div class="col-lg-6 col-12">
+				<!-- Basic Forms -->
+				  <div class="box">
+					<div class="box-header with-border">
+					  <h4 class="box-title">فرم پایه پیش فرض</h4>
+					</div>
+					<!-- /.box-header -->
+					<div class="box-body">
+					  <div class="row">
+						<div class="col-12">
+							<div class="form-group row">
+							  <label for="example-text-input" class="col-sm-2 col-form-label">متن</label>
+							  <div class="col-sm-10">
+								<input class="form-control" type="text" value="رضا افشار" id="example-text-input">
+							  </div>
+							</div>
+							<div class="form-group row">
+							  <label for="example-search-input" class="col-sm-2 col-form-label">جستجو</label>
+							  <div class="col-sm-10">
+								<input class="form-control" type="search" value="آموزش طراحی وب" id="example-search-input">
+							  </div>
+							</div>
+							<div class="form-group row">
+							  <label for="example-email-input" class="col-sm-2 col-form-label">ایمیل</label>
+							  <div class="col-sm-10">
+								<input class="form-control" type="email" value="bootstrap@example.com" id="example-email-input">
+							  </div>
+							</div>
+							<div class="form-group row">
+							  <label for="example-url-input" class="col-sm-2 col-form-label">آدرس URL</label>
+							  <div class="col-sm-10">
+								<input class="form-control" type="url" value="https://getbootstrap.com" id="example-url-input">
+							  </div>
+							</div>
+							<div class="form-group row">
+							  <label for="example-tel-input" class="col-sm-2 col-form-label">تلفن</label>
+							  <div class="col-sm-10">
+								<input class="form-control" type="tel" value="02155667788" id="example-tel-input">
+							  </div>
+							</div>
+							<div class="form-group row">
+							  <label for="example-password-input" class="col-sm-2 col-form-label">رمز عبور</label>
+							  <div class="col-sm-10">
+								<input class="form-control" type="password" value="سلام2" id="example-password-input">
+							  </div>
+							</div>
+							<div class="form-group row">
+							  <label for="example-number-input" class="col-sm-2 col-form-label">شماره</label>
+							  <div class="col-sm-10">
+								<input class="form-control" type="number" value="42" id="example-number-input">
+							  </div>
+							</div>
+							<div class="form-group row">
+							  <label for="example-datetime-local-input" class="col-sm-2 col-form-label">تاریخ و زمان</label>
+							  <div class="col-sm-10">
+								<input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="example-datetime-local-input">
+							  </div>
+							</div>
+							<div class="form-group row">
+							  <label for="example-date-input" class="col-sm-2 col-form-label">تاریخ</label>
+							  <div class="col-sm-10">
+								<input class="form-control" type="date" value="2011-08-19" id="example-date-input">
+							  </div>
+							</div>
+							<div class="form-group row">
+							  <label for="example-month-input" class="col-sm-2 col-form-label">ماه</label>
+							  <div class="col-sm-10">
+								<input class="form-control" type="month" value="2011-08" id="example-month-input">
+							  </div>
+							</div>
+							<div class="form-group row">
+							  <label for="example-week-input" class="col-sm-2 col-form-label">هفته</label>
+							  <div class="col-sm-10">
+								<input class="form-control" type="week" value="2011-W33" id="example-week-input">
+							  </div>
+							</div>
+							<div class="form-group row">
+							  <label for="example-time-input" class="col-sm-2 col-form-label">زمان</label>
+							  <div class="col-sm-10">
+								<input class="form-control" type="time" value="13:45:00" id="example-time-input">
+							  </div>
+							</div>
+							<div class="form-group row">
+							  <label for="example-color-input" class="col-sm-2 col-form-label">رنگ</label>
+							  <div class="col-sm-10">
+								<input class="form-control" type="color" value="#563d7c" id="example-color-input">
+							  </div>
+							</div>
+						</div>
+						<!-- /.col -->
+					  </div>
+					  <!-- /.row -->
+					</div>
+					<!-- /.box-body -->
+				  </div>
+				  <!-- /.box -->			
+			</div>
+
+			<div class="col-lg-6 col-12">
+				<!-- Basic Forms -->
+				  <div class="box">
+					<div class="box-header with-border">
+					  <h4 class="box-title">بخش های فرم</h4>
+					</div>
+					<!-- /.box-header -->
+					<form>
+						<div class="box-body">
+							<h4 class="mt-0 mb-20">1. اطلاعات مشتری : </h4>
+							<div class="form-group">
+								<label>نام کامل : </label>
+								<input type="email" class="form-control" placeholder="وارد کردن نام کامل">
+							</div>
+							<div class="form-group">
+								<label>آدرس ایمیل : </label>
+								<input type="email" class="form-control" placeholder="وارد کردن ایمیل">
+							</div>
+							<div class="form-group">
+								<label>شماره تماس : </label>						
+								<input type="tel" class="form-control" placeholder="وارد کردن شماره تماس">
+							</div>
+							<div class="form-group">
+								<label>نحوه ارتباط : </label>
+								<div class="c-inputs-stacked">
+									<input type="checkbox" id="checkbox_123">
+									<label for="checkbox_123" class="block">ایمیل</label>
+									<input type="checkbox" id="checkbox_234">
+									<label for="checkbox_234" class="block">اس ام اس</label>
+									<input type="checkbox" id="checkbox_345">
+									<label for="checkbox_345" class="block">تلفن</label>
+								</div>
+							</div>
+							<hr>
+
+							<h4 class="mt-0 mb-20">2. اطلاعات پرداخت : </h4>
+
+							<div class="form-group">
+								<label>روش پرداخت : </label>
+								<div class="c-inputs-stacked">
+									<input name="group123" type="radio" id="radio_123" value="1">
+									<label for="radio_123" class="mr-30">کارت به کارت</label>
+									<input name="group456" type="radio" id="radio_456" value="1">
+									<label for="radio_456" class="mr-30">نقدی</label>
+									<input name="group789" type="radio" id="radio_789" value="1">
+									<label for="radio_789" class="mr-30">کیف پول</label>
+								</div>
+							</div>
+							<div class="form-group">
+								<label>مبلغ : </label>
+								<input type="email" class="form-control" placeholder="مبلغ را وارد کنید">
+							</div>
+						</div>
+						<!-- /.box-body -->
+						<div class="box-footer">
+							<button type="submit" class="btn btn-rounded btn-danger">لغو</button>
+							<button type="submit" class="btn btn-rounded btn-success pull-right">تایید</button>
+						</div>
+					</form>
+				  </div>
+				  <!-- /.box -->			
+			</div>
+		  </div>
+
+		</section>
+		<!-- /.content -->
+	  </div>
+  </div>
+  <!-- /.content-wrapper -->
+  
+   <footer class="main-footer">
+    
+	  &copy; 2020 تمامی حقوق محفوظ است
+  </footer>
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar">
+	  
+	<div class="rpanel-title"><span class="pull-right btn btn-circle btn-danger"><i class="ion ion-close text-white" data-toggle="control-sidebar"></i></span> </div>  <!-- Create the tabs -->
+    <ul class="nav nav-tabs control-sidebar-tabs">
+      <li class="nav-item"><a href="#control-sidebar-home-tab" data-toggle="tab" class="active">چت</a></li>
+      <li class="nav-item"><a href="#control-sidebar-settings-tab" data-toggle="tab">لیست انجام</a></li>
+    </ul>
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <!-- Home tab content -->
+      <div class="tab-pane active" id="control-sidebar-home-tab">
+          <div class="flexbox">
+			<a href="javascript:void(0)" class="text-grey"><i class="ti-minus"></i></a>	
+			<p>کاربران</p>
+			<a href="javascript:void(0)" class="text-right text-grey"><i class="ti-plus"></i></a>
+		  </div>
+		  <div class="lookup lookup-sm lookup-right d-none d-lg-block">
+			<input type="text" name="s" placeholder="جستجو" class="w-p100">
+		  </div>
+          <div class="media-list media-list-hover mt-20">
+			<div class="media py-10 px-0">
+			  <a class="avatar avatar-lg status-success" href="#">
+				<img src="../images/avatar/1.jpg" alt="...">
+			  </a>
+			  <div class="media-body">
+				<p class="font-size-16">
+				  <a class="hover-primary" href="#"><strong>نسترن</strong></a>
+				</p>
+				<p>لورم ایپسوم متن ...</p>
+				  <span>همین حالا</span>
+			  </div>
+			</div>
+
+			<div class="media py-10 px-0">
+			  <a class="avatar avatar-lg status-danger" href="#">
+				<img src="../images/avatar/2.jpg" alt="...">
+			  </a>
+			  <div class="media-body">
+				<p class="font-size-16">
+				  <a class="hover-primary" href="#"><strong>پریسا</strong></a>
+				</p>
+				<p>تولید سادگی نامفهوم ...</p>
+				  <span>33 دقیقه پیش</span>
+			  </div>
+			</div>
+
+			<div class="media py-10 px-0">
+			  <a class="avatar avatar-lg status-warning" href="#">
+				<img src="../images/avatar/3.jpg" alt="...">
+			  </a>
+			  <div class="media-body">
+				<p class="font-size-16">
+				  <a class="hover-primary" href="#"><strong>پدرام</strong></a>
+				</p>
+				<p>متن ساختگی با تولید ...</p>
+				  <span>42 دقیقه پیش</span>
+			  </div>
+			</div>
+
+			<div class="media py-10 px-0">
+			  <a class="avatar avatar-lg status-primary" href="#">
+				<img src="../images/avatar/4.jpg" alt="...">
+			  </a>
+			  <div class="media-body">
+				<p class="font-size-16">
+				  <a class="hover-primary" href="#"><strong>پدرام</strong></a>
+				</p>
+				<p>متن ساختگی با تولید ...</p>
+				  <span>42 دقیقه پیش</span>
+			  </div>
+			</div>			
+			
+			<div class="media py-10 px-0">
+			  <a class="avatar avatar-lg status-success" href="#">
+				<img src="../images/avatar/1.jpg" alt="...">
+			  </a>
+			  <div class="media-body">
+				<p class="font-size-16">
+				  <a class="hover-primary" href="#"><strong>نسترن</strong></a>
+				</p>
+				<p>لورم ایپسوم متن ...</p>
+				  <span>همین حالا</span>
+			  </div>
+			</div>
+
+			<div class="media py-10 px-0">
+			  <a class="avatar avatar-lg status-danger" href="#">
+				<img src="../images/avatar/2.jpg" alt="...">
+			  </a>
+			  <div class="media-body">
+				<p class="font-size-16">
+				  <a class="hover-primary" href="#"><strong>پریسا</strong></a>
+				</p>
+				<p>تولید سادگی نامفهوم ...</p>
+				  <span>33 دقیقه پیش</span>
+			  </div>
+			</div>
+
+			<div class="media py-10 px-0">
+			  <a class="avatar avatar-lg status-warning" href="#">
+				<img src="../images/avatar/3.jpg" alt="...">
+			  </a>
+			  <div class="media-body">
+				<p class="font-size-16">
+				  <a class="hover-primary" href="#"><strong>پدرام</strong></a>
+				</p>
+				<p>متن ساختگی با تولید ...</p>
+				  <span>42 دقیقه پیش</span>
+			  </div>
+			</div>
+
+			<div class="media py-10 px-0">
+			  <a class="avatar avatar-lg status-primary" href="#">
+				<img src="../images/avatar/4.jpg" alt="...">
+			  </a>
+			  <div class="media-body">
+				<p class="font-size-16">
+				  <a class="hover-primary" href="#"><strong>پدرام</strong></a>
+				</p>
+				<p>متن ساختگی با تولید ...</p>
+				  <span>42 دقیقه پیش</span>
+			  </div>
+			</div>
+			  
+		  </div>
+
+      </div>
+      <!-- /.tab-pane -->
+      <!-- Settings tab content -->
+      <div class="tab-pane" id="control-sidebar-settings-tab">
+          <div class="flexbox">
+			<a href="javascript:void(0)" class="text-grey"><i class="ti-minus"></i></a>	
+			<p>لیست انجام</p>
+			<a href="javascript:void(0)" class="text-right text-grey"><i class="ti-plus"></i></a>
+		  </div>
+        <ul class="todo-list mt-20">
+			<li class="py-15 px-5 by-1">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_1" class="filled-in">
+			  <label for="basic_checkbox_1" class="mb-0 h-15"></label>
+			  <!-- todo text -->
+			  <span class="text-line">لورم ایپسوم</span>
+			  <!-- Emphasis label -->
+			  <small class="badge bg-danger"><i class="fa fa-clock-o"></i> 2 دقیقه</small>
+			  <!-- General tools such as edit or delete-->
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_2" class="filled-in">
+			  <label for="basic_checkbox_2" class="mb-0 h-15"></label>
+			  <span class="text-line">با تولید سادگی</span>
+			  <small class="badge bg-info"><i class="fa fa-clock-o"></i> 4 ساعت</small>
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5 by-1">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_3" class="filled-in">
+			  <label for="basic_checkbox_3" class="mb-0 h-15"></label>
+			  <span class="text-line">متن ساختگی</span>
+			  <small class="badge bg-warning"><i class="fa fa-clock-o"></i> 1 روز</small>
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_4" class="filled-in">
+			  <label for="basic_checkbox_4" class="mb-0 h-15"></label>
+			  <span class="text-line">متن صنعت چاپ</span>
+			  <small class="badge bg-success"><i class="fa fa-clock-o"></i> 3 روز</small>
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5 by-1">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_5" class="filled-in">
+			  <label for="basic_checkbox_5" class="mb-0 h-15"></label>
+			  <span class="text-line">لورم ایپسوم ساختگی</span>
+			  <small class="badge bg-primary"><i class="fa fa-clock-o"></i> 1 هفته</small>
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_6" class="filled-in">
+			  <label for="basic_checkbox_6" class="mb-0 h-15"></label>
+			  <span class="text-line">تولید نامفهوم متن</span>
+			  <small class="badge bg-info"><i class="fa fa-clock-o"></i> 1 ماه</small>
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5 by-1">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_7" class="filled-in">
+			  <label for="basic_checkbox_7" class="mb-0 h-15"></label>
+			  <!-- todo text -->
+			  <span class="text-line">لورم ایپسوم</span>
+			  <!-- Emphasis label -->
+			  <small class="badge bg-danger"><i class="fa fa-clock-o"></i> 2 دقیقه</small>
+			  <!-- General tools such as edit or delete-->
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_8" class="filled-in">
+			  <label for="basic_checkbox_8" class="mb-0 h-15"></label>
+			  <span class="text-line">با تولید سادگی</span>
+			  <small class="badge bg-info"><i class="fa fa-clock-o"></i> 4 ساعت</small>
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5 by-1">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_9" class="filled-in">
+			  <label for="basic_checkbox_9" class="mb-0 h-15"></label>
+			  <span class="text-line">متن ساختگی</span>
+			  <small class="badge bg-warning"><i class="fa fa-clock-o"></i> 1 روز</small>
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_10" class="filled-in">
+			  <label for="basic_checkbox_10" class="mb-0 h-15"></label>
+			  <span class="text-line">متن صنعت چاپ</span>
+			  <small class="badge bg-success"><i class="fa fa-clock-o"></i> 3 روز</small>
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+		  </ul>
+      </div>
+      <!-- /.tab-pane -->
+    </div>
+  </aside>
+  <!-- /.control-sidebar -->
+  
+  <!-- Add the sidebar's background. This div must be placed immediately after the control sidebar -->
+  <div class="control-sidebar-bg"></div>
+</div>
+<!-- ./wrapper -->
+
+	<!-- Vendor JS -->
+	<script src="js/vendors.min.js"></script>
+    <script src="../assets/icons/feather-icons/feather.min.js"></script>	<!-- Sunny Admin App -->
+	<script src="js/template.js"></script>
+	
+</body>
+</html>
